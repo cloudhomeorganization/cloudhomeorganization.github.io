@@ -1,7 +1,7 @@
 ---
 title: "收納空間足夠，為什麼還是不好用？重新整理分類與生活動線"
-meta_title: ""
-description: "this is meta description"
+meta_title: "收納空間足夠，為什麼還是不好用？重新整理分類與生活動線"
+description: "收納整理"
 date: 2026-11-13T12:00:00Z
 image: "/images/image-tidy-post2-002.png"
 categories: ["整理案例"]
