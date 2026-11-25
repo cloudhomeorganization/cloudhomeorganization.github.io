@@ -25,9 +25,17 @@ contact_form_action = "#" # contact form works with [https://airform.io/] or [ht
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
-custom_script = ""
-# copyright
-# copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+# google ads
+custom_script = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-363031305"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-363031305');
+</script>
+"""
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -130,14 +138,3 @@ enable = false
 site_key = "cmq51sse6000504l2761vcywi"                 # your site key from the OpenRemark dashboard
 embed_url = "https://open-remark.zeon.studio/embed.js" # OpenRemark embed.js URL | Make sure it didn't change
 
-# google ads
-custom_script = """
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-363031305"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-363031305');
-</script>
-"""
